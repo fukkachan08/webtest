@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255, 219, 219);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',"centurygothic", sans-serif;
+}
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+    justify-content: right;
+}
+header a{
+    z-index: 100;
+}
+.a1{
+    transition: all 0.4s;
+}
+.a1:hover{
+    color:#bfb4ef;
+}
+.nav1{
+    background-color:#000;
+    padding-top: 0;
+    box-sizing: border-box;
+    
+}
+li{
+    list-style: none;
+    color: #fff;
+
+}
+
+.a1{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+    width: 110px;
+    height: 65px;
+    line-height: 3.6em;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 100px;
+    line-height: 1em;
+}
+
+
+.slider img{
+    width: 100%;
+    height: 820px;
+    object-fit: cover;
+}
+
+.top{
+    position: absolute;
+    right:10%;
+    top: 600px;
+    color: #fff;
+    font-style: italic;
+    background-color: #000;
+    
+}
+.p1{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+
+.Act, .Pho, .Dnc, .SNS{
+    font-size: 80px;
+    margin-top: -90px;
+    padding-top: 90px;
+    text-decoration: underline #fff 8px;
+    font-style: italic;
+}
+.p3{
+    font-style: italic;
+}
+.contents{
+    position: relative;
+    top:850px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%,);
+    -ms-transform: translate(-50%);
+    width: 87%;
+}
+.file{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.file a{
+    text-decoration: none;
+    color: #000;
+}
+.actimg{
+    margin: 20px;
+    text-align: center;
+    transition: all 0.4s;
+    
+}
+.actimg img{
+    border-radius: 10px;
+    border: solid #fff 3px;
+}
+.actimg:hover{
+    opacity: 0.6;
+    transform: translate(0,-16px);
+}
+.photo_list{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+.phoimg{
+    margin: 10px;
+    transition: all 0.4s;
+}
+.phoimg:hover{
+    transform: scale(1.3,1.3);
+}
+.phoimg img{
+    width: 310px;
+    height: 225px;
+    border-radius: 30px;
+    border: solid #fff 3px;
+}
+.sns_list img{
+    width: 100px;
+    
+}
+.sns_list{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.youtube{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.insta, .not, .you, .fac{
+    padding: 20px;    
+}
+.sns_content-i, .sns_content-n, .sns_content-y, .sns_content-f{
+    transition: all 1.1s;
+}
+/* まとめれなかった*/
+.insta:hover .sns_content-i{
+    transform: translate(0,-16px);
+}
+.not:hover .sns_content-n{
+    transform: translate(0,-16px);
+}
+.you:hover .sns_content-y{
+    transform: translate(0,-16px);
+}
+.fac:hover .sns_content-f{
+    transform: translate(0,-16px);
+}
+.sns_list p{
+    font-size: 30px;
+    opacity: 0;
+    transition: all 1.2s;
+    text-align: center;
+    font-style: italic;
+}
+.insta:hover .open-i{
+    background-color: #fff;
+    opacity: 1;
+}
+.not:hover .open-n{
+    background-color: #fff;
+    opacity: 1;
+}
+.you:hover .open-y{
+    background-color: #fff;
+    opacity: 1;
+}
+.fac:hover .open-f{
+    background-color: #fff;
+    opacity: 1;
+}
+/*--------------ここからprofileの装飾----------------*/
+.pro_right img{
+    border-radius: 20px;
+    margin-top: 10px;
+    border: solid 3px #fff;
+}
+.pro_right{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.p2::first-letter{
+    font-size: 70px;
+}
+.p2{
+    font-size: 23px;
+}
+.pro_center{
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
